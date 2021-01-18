@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+## Inspiration
+As ardent, young investors ourselves, we had used a number of services that provided a stock simulation feature. We realized that all of these websites were cumbersome to use, especially for kids and people who have not had experience in the stock market. This inspired us to build our own stock simulation website that would make stock trading easy and fun to use for all traders. We also wanted to integrate a leaderboard so that our stock trading more engaging and accessible for all people.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What it does
+MyFirstStock lets people practice investing by using fake currency to buy and sell stocks. This means no heavy entry fees to learn about the investment process. The gamification aspect of the site means more people will learn about financial security through competing with their friends and family.
 
-## Available Scripts
+## How we built it
+We built the front-end of the website with React.js and serviced the backend using Node.js and Firebase. We utilized Google's Cloud Firestore for the database of all users. Additionally, we leveraged Firebase Auth for user sign-in and email verification. In order to obtain requested stock data, be fetched data from the AlphaVantage API.
 
-In the project directory, you can run:
+## Challenges we ran into
+We initially had too many ideas, many of which were unrealistic to develop in the given timeline. It was difficult making sacrifices for the sake of finishing on time. In terms of technical challenges, during testing, we called the Firebase Auth API too many times and were blocked for about 30 minutes, which made it really difficult to continue adding features.
 
-### `npm start`
+## Accomplishments that we're proud of
+We are proud that we were able to create a working product at the end of the day that accomplishes making stock trading more available for all. We are also proud that we were able to collaborate to incorporate new technologies that would not have tried in an independent setting.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## What we learned
+We learned that it is difficult to put all of our ideas and passion into one website in less than 2 days. We realized that we need to limit the scope of our projects to integrations that are the most impactful that our website provides for young investors all around the world. We also learned that it is hard to manage and distribute work for programming our website; however, each one of us was able to take our part and successfully complete an influential website that would hopefully bring more investors together to make a brighter future for all people.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for My First Stock
+Our next step is to get users to try out our site. We are really proud of what we made, but we want to hear real user feedback on what features to add and what elements need improvement. We also would like to add some simple guides about the basics of investing. For example, a thread about when to buy and sell stocks and overall movements of the market. Additionally, a member forum where people can talk about their investments and help others get started and succeed.
