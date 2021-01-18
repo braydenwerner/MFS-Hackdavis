@@ -10,7 +10,7 @@ export default function Graph({ symbol }) {
 
   useEffect(() => {
     console.log('symbol: ', symbol)
-    const API_KEY = 'MGR1YK7CRLHP6ANJ'
+
     symbol = symbol.length === 0 ? 'IBM' : symbol
     setStockData([])
     fetch(
