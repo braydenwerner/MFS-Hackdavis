@@ -1,0 +1,60 @@
+@import '../../constants/constants';
+
+#search {
+  margin: center;
+  margin-top: 950px;
+  color: white;
+  font-family: $mainFont;
+}
+
+#button {
+  border-radius: 3px;
+  background-color: $themeRed;
+  border: none;
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  font-family: $mainFont;
+  outline: none;
+  margin-bottom: 60px;
+  color: white;
+}
+
+#input {
+  border-radius: 3px;
+  background-color: rgb(40, 40, 40);
+  color: white;
+  border: none;
+  width: 250px;
+  height: 190px;
+  font-family: $mainFont;
+  outline: none;
+}
+
+#stock {
+  color: white;
+}
+
+#button-container {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+  #buy,
+  #sell {
+    border-radius: 3px;
+    background-color: $themeRed;
+    border: none;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    font-family: $mainFont;
+    outline: none;
+    margin-bottom: 60px;
+    color: white;
+  }
+}
+
+h1 {
+  font-family: $mainFont;
+  color: white;
+}

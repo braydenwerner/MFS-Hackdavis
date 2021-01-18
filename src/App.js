@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { HomePage, SignIn } from './components/exports'
+import Nav from './components/Nav/Nav'
+import './App.scss'
+import Leaderboard from './components/Leaderboard/Leaderboard'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Nav />
+      <div id="component-container">
+        <HomePage />
+        <SignIn />
+        <Leaderboard />
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App

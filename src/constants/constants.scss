@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Tajawal:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Vollkorn:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+$font-size-large: 1.2rem;
+$font-size-normal: 1rem;
+$font-size-small: 0.8rem;
+
+$themeGreen: #689775;
+$themeGreenDark: #12422d;
+$themeRed: #c7493a;
+$themePurple: #c777a7;
+$themeYellow: #ffcb6b;
+$themeGray: #a6acb2;
+$themeWhite: #f0f0f0;
+$themeSilver: #7d8491;
+$themeDarkGray: #3e505b;
+$themeOrange: #fc7233;
+$themeLightBlue: #659dbd;
+$themeLightYellow: #fbeec1;
+
+$screen-small: 400px;
+$screen-medium: 1000px;
+$screen-large: 1400px;
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin section-header-red {
+  font-family: 'Lora', serif;
+  font-weight: 100;
+  font-size: 50px;
+  color: $themeRed;
+}
+
+@mixin paragraph-gray-text {
+  color: rgb(138, 138, 138);
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 17px;
+  line-height: 25px;
+  font-family: 'Cairo', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap');
+
+$themeGreen: #9ee493;
+$themeBlue: #2f4858;
+$themeLightBlue: #336699;
+
+$mainFont: 'Prompt', sans-serif;
+$textPromptFont: 'Overpass Mono', monospace;
+$mainHeaderFont: 'Work Sans', sans-serif;
+
+@mixin key-highlight {
+  font-family: $mainFont;
+  background-color: $themeGreen;
+  color: $themeBlue;
+  padding: 4px;
+  margin: 8px 8px 8px 8px;
+}
